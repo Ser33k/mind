@@ -875,140 +875,142 @@ form label {
     }
 
 
-}
-
-
-
-/* ************** */
-
-
-.methods__list__item {
-    flex-direction: row;
-}
-
-
-.methods__list__about,
-.methods__list__img {
-    flex-basis: 45%;
-    margin: 0;
-}
-
-.methods__list__about h3 {
-    font-size: 36px;
-    margin: 0;
-}
-
-.methods__list__about p {
-    font-size: 18px;
-}
 
 
 
 
+    /* ************** */
 
-/* offer *************************** */
+
+    .methods__list__item {
+        flex-direction: row;
+    }
 
 
-.offer__list {
-    flex-direction: row;
-    justify-content: space-between;
-}
+    .methods__list__about,
+    .methods__list__img {
+        flex-basis: 45%;
+        margin: 0;
+    }
 
-.offer__list__item {
-    flex-basis: 30%;
-    padding: 10px;
-}
+    .methods__list__about h3 {
+        font-size: 36px;
+        margin: 0;
+    }
 
-.offer__list__item h3 {
-    font-size: 35px;
-}
-
-.offer__descript__list li {
-    font-size: 24px;
-}
-
-.offer__price {
-    font-size: 35px;
-}
-
-.offer__book {
-    padding: 20px;
-    letter-spacing: normal;
-    font-size: 25px;
-}
+    .methods__list__about p {
+        font-size: 18px;
+    }
 
 
 
 
 
-
-/* gallery ****************** */
-
+    /* offer *************************** */
 
 
+    .offer__list {
+        flex-direction: row;
+        justify-content: space-between;
+    }
 
-.gallery__photos a {
-    flex-basis: 30%;
-}
+    .offer__list__item {
+        flex-basis: 30%;
+        padding: 10px;
+    }
 
+    .offer__list__item h3 {
+        font-size: 35px;
+    }
 
+    .offer__descript__list li {
+        font-size: 24px;
+    }
 
+    .offer__price {
+        font-size: 35px;
+    }
 
-
-/* contact ***************** */
-
-.cont {
-    max-width: 1200px;
-}
-
-.contact__address {
-    flex-direction: row;
-    justify-content: center;
-    /* align-items: center; */
-
-    margin-top: 50px;
-}
-
-
-.contact__address__data,
-.contact__address__map {
-    align-self: center;
-    flex-basis: 45%;
-    margin: 0;
-}
-
-.contact__address__info {
-    margin: 35px 0;
-}
+    .offer__book {
+        padding: 20px;
+        letter-spacing: normal;
+        font-size: 25px;
+    }
 
 
-form label {
-    width: 40%;
-}
 
 
-.form__input,
-.form__textarea {
-    font-size: 24px;
-}
 
 
-.message__send {
-    padding: 20px;
-    font-size: 30px;
-}
+    /* gallery ****************** */
 
 
-.me__h2,
-.methods__head h2,
-.offer__h2,
-.gallery__h2,
-.contact__head {
-
-    font-size: 55px;
-}
 
 
-.methods__head h3 {
-    font-size: 35px;
+    .gallery__photos a {
+        flex-basis: 30%;
+    }
+
+
+
+
+
+    /* contact ***************** */
+
+    .cont {
+        max-width: 1200px;
+    }
+
+    .contact__address {
+        flex-direction: row;
+        justify-content: center;
+        /* align-items: center; */
+
+        margin-top: 50px;
+    }
+
+
+    .contact__address__data,
+    .contact__address__map {
+        align-self: center;
+        flex-basis: 45%;
+        margin: 0;
+    }
+
+    .contact__address__info {
+        margin: 35px 0;
+    }
+
+
+    form label {
+        width: 40%;
+    }
+
+
+    .form__input,
+    .form__textarea {
+        font-size: 24px;
+    }
+
+
+    .message__send {
+        padding: 20px;
+        font-size: 30px;
+    }
+
+
+    .me__h2,
+    .methods__head h2,
+    .offer__h2,
+    .gallery__h2,
+    .contact__head {
+
+        font-size: 55px;
+    }
+
+
+    .methods__head h3 {
+        font-size: 35px;
+    }
+
 }
